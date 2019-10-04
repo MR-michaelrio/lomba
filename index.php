@@ -18,6 +18,7 @@
     </div>
 </div>
 <Center>
+TEST 1 TEST 2
 <div class="slideshow-container">
 <div class="mySlides fade">
   <img src="img/1.jpg" class=gambar height=669>
