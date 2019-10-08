@@ -1,12 +1,13 @@
 <html>
 <head>
- <title>Login Sederhana Dengan MySqli</title>
+ <title>Daftar</title>
  <link rel="stylesheet" href="css/logininput.css">
+ <link rel="icon" href="foto/tc.png">
 </head>
 <body>  
   <form class="box" action="prosesdaftar.php" method="post">
-    <img src="img/tc.png" class=gambar>
-<h1>Log-In</h1>
+    <img src="foto/tc.png" class=gambar>
+<h1>Registrasi</h1>
 			<input type="text" name="username" class="form_login" placeholder="Email .." required="required">
 			<input type="password" name="password" class="form_login" placeholder="Password .." required="required">
  			 <input type="hidden" name="level" value=user>

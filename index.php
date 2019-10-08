@@ -1,100 +1,252 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
-    <title>Travell</title>
-     <link rel="icon" href="img/tc.png">
-    <link rel="stylesheet" href="css/css.css">
-    <link rel="stylesheet" href="css/slider.css">
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/wow.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="foto/tc.png">
 </head>
 <body>
-<div class="header">
-    <a href="index.php"><img src=img/tc.png></a>
-    <div class="header-right">
-    <a class="wow" href="login.php">Log In</a>
-    <a class="wow active" href="daftar.php">Register</a>
+
+<div class="topnav" id="myTopnav">
+<span><img width=100px src=foto/tc.png></span>
+  <h3><img src=foto/tc.png></h3>
+  <a  style="visibility:hidden;">aassa</a>
+  <a href=admin/index2.php>Booking</a>
+  <div class="dropdown">
+  <button class="dropbtn">
+      <i class="fa fa-user">
+      </i>
+    </button>
+    <div class="dropdown-content">
+    <a href="daftar.php">Daftar</a>
+      <a href="login.php">Log-In User</a>
+      <a href="daftartravel.php">Daftar Travel</a>
+      <a href="loginperusahaan.php">Log-In Travel</a>
     </div>
+  </div> 
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 <Center>
 <div class="slideshow-container">
+
 <div class="mySlides fade">
-  <img src="img/1.jpg" class=gambar height=669>
+  <img src="foto/5.png" class=gambar >
 </div>
 
 <div class="mySlides fade">
-  <img src="img/2.jpg" class=gambar height=669>
+  <img src="foto/6.png" class=gambar>
 </div>
 
 <div class="mySlides fade">
-  <img src="img/3.jpg" class=gambar height=669>
+  <img src="foto/7.png" class=gambar>
 </div>
 
-<div class="mySlides fade">
-  <img src="img/4.jpg" class=gambar height=669>
 </div>
-
-<div class="mySlides fade">
-  <img src="img/5.jpg" class=gambar height=669>
 </div>
-
-<div class="mySlides fade">
-  <img src="img/6.jpg" class=gambar height=669>
+</center>
+<center>
+<div class="box" >
+  <table class=wow border=0>  
+<tr>
+<td rowspan=5 align=center class=gambar2><img class=gambar1 src=foto/antavaya.png></td>
+</tr>
+<tr>
+<td>Jepang</td>
+</tr>
+<tr>
+<td>3 Day 2 night</td>    
+</tr>
+<tr>
+<td style="color:green;">Hokaido-Tokyo</td>    
+</tr>
+<tr>
+<td>Jakarta</td>    
+</tr>
+</table>
 </div>
-
-<div class="mySlides fade">
-  <img src="img/7.jpg" class=gambar height=669>
+<div class="box" >
+  <table class=wow border=0>  
+<tr>
+<td rowspan=5 align=center class=gambar2><img class=gambar1 src=foto/antavaya.png></td>
+</tr>
+<tr>
+<td>Jepang</td>
+</tr>
+<tr>
+<td>3 Day 2 night</td>    
+</tr>
+<tr>
+<td style="color:green;">Hokaido-Tokyo</td>    
+</tr>
+<tr>
+<td>Jakarta</td>    
+</tr>
+</table>
 </div>
-
-<div class="mySlides fade">
-  <img src="img/8.jpg" class=gambar height=669>
+<div class="box" >
+  <table class=wow border=0>  
+<tr>
+<td rowspan=5 align=center class=gambar2><img class=gambar1 src=foto/antavaya.png></td>
+</tr>
+<tr>
+<td>Jepang</td>
+</tr>
+<tr>
+<td>3 Day 2 night</td>    
+</tr>
+<tr>
+<td style="color:green;">Hokaido-Tokyo</td>    
+</tr>
+<tr>
+<td>Jakarta</td>    
+</tr>
+</table>
 </div>
-
-<div class="mySlides fade">
-  <img src="img/9.jpg" class=gambar height=669>
-</div>
-
-<div class="mySlides fade">
-  <img src="img/10.jpg" class=gambar height=669>
-</div>
-
-<div class="mySlides fade">
-  <img src="img/11.jpg" class=gambar height=669>
-</div>
-
-<div class="mySlides fade">
-  <img src="img/12.jpg" class=gambar height=669>
-</div>
-
-<div class="mySlides fade">
-  <img src="img/13.jpg" class=gambar height=669>
-</div>
-
-<div class="mySlides fade">
-  <img src="img/14.jpg" class=gambar height=669>
-</div>
-
-<div class="mySlides fade">
-  <img src="img/15.jpg" class=gambar height=669>
-</div>
-
-<div class="mySlides fade">
-  <img src="img/16.jpg" class=gambar height=669>
-</div>
-
-<div class="mySlides fade">
-  <img src="img/17.jpg" class=gambar height=669>
-</div>
-
-<div class="mySlides fade">
-  <img src="img/antavaya.png" class=gambar height=669>
-</div>
-
-<?php include "footer.php"; ?>
-</div>
-</Center>
+</center>
+<footer>
+        <div class="bawah">
+          <strong>Copyright &copy; 2019 MR-MichaelRio</a>.</strong> All rights reserved.
+        </div>
+        
+      </footer>
+  
 </body>
 </html>
 <script src=js/imageslider.js></script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
+<style>
+  .gambar1{
+    width:100%;
+  }
+  .box{
+    margin-top:10px;
+				width:350px;
+				background:#ead2ac;
+				display: inline-block;
+        margin-left: 10px;
+        border-radius:5px;
+      }
+      .wow{
+        font-size:20px;
+        width:350px;
+      }
+  .bawah{
+    margin-top:10px;
+  width: 100%;
+height: 50px;
+padding-left: 10px;
+line-height: 50px;
+background: #333;
+color: #fff;
+position: fixed;
+bottom: 0px;
+text-align:center;
+}
+@media screen and (max-width:1000px){
+  .box{
+    margin-top:10px;
+				width:500px;
+				background:#ead2ac;
+				display: inline-block;
+        margin-left: 10px;
+        border-radius:5px;
+      }
+      .wow{
+        font-size:25px;
+        width:500px;
+      }
+      .gambar1{
+        width:100%;
+      } 
+      .gambar2{
+        width:250px;
+      }
+      .bawah{
+  width: 100%;
+  height: 50px;
+  font-size:auto;
+  padding-left: 10px;
+  line-height: 50px;
+  background: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0px;
+  }
+}
+@media screen and (max-width:650px){
+  .box{
+    margin-top:10px;
+				width:350px;
+				background:#ead2ac;
+				display: inline-block;
+        margin-left: 10px;
+        border-radius:5px;
+      }
+      .wow{
+        font-size:20px;
+        width:350px;
+      }
+      .gambar1{
+        width:100%;
+      } 
+      .gambar2{
+        width:130px;
+      }
+      .bawah{
+  width: 100%;
+  height: 50px;
+  font-size:auto;
+  padding-left: 10px;
+  line-height: 50px;
+  background: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0px;
+  }
+    }
+
+@media screen and (max-width: 400px) {
+  .box{
+    margin-top:10px;
+				width:80%;
+				background:#ead2ac;
+				display: inline-block;
+        margin-left: 0px;
+        border-radius:5px;
+      }
+      .wow{
+        font-size:15px;
+        width:100px;
+        width:100%;
+      }
+      .gambar1{
+        width:100%;
+      } 
+      .gambar2{
+        width:130px;
+      }
+      .bawah{
+  width: 100%;
+  height: 50px;
+  font-size:auto;
+  padding-left: 10px;
+  line-height: 50px;
+  background: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0px;
+  }
+}
+  </style>

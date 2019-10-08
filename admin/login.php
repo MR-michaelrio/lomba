@@ -5,7 +5,7 @@
 </head>
 <body>  
   <form class="box" action="cek_logininput.php" method="post">
-    <img src="img/tc.png" class=gambar>
+    <img src="foto/tc.png" class=gambar>
 <h1>Log-In</h1>
 			<input type="text" name="username" class="form_login" placeholder="Email .." required="required">
 			<input type="password" name="password" class="form_login" placeholder="Password .." required="required">

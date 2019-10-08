@@ -15,8 +15,8 @@ if(isset($submit)){
   echo "<script>alert('Form tidak boleh kosong!!! Silakan ulangi lagi'); window.location=('daftar.php') </script>";
  }else{
  
-  $pass = md5($_POST['password']);
-  $ins = mysqli_query($koneksi,"insert into login(username,password,level) values ('$username','$pass','$level')");
+
+  $ins = mysqli_query($koneksi,"insert into login(username,password,level) values ('$username','$password','$level')");
   echo "<script>alert('Data berhasil di Tambah'); window.location=('login.php');</script>";
  }
 }
